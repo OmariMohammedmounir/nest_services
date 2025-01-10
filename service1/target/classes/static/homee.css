@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+ 
+
+
+.r{
+	background-image: url("b.jpg");
+	background-size: cover;
+}
+
+h2{
+		
+  line-height: 1.66;
+ 
+
+
+ 	   color:rgba(255, 255, 255,0.9);	 
+ 
+ 
+  
+ font-family: 'Arial';  
+  font-size:20px;
+}
+.themes h2{
+	font-family:Arial;
+	color:rgba(192,192,192,0.6);
+	text-align:center;
+	font-size:25px;
+	
+}
+.bt:hover {
+background:#fff;
+color:#212121;
+
+}
+.bt:hover {
+background:#fff;
+color:#212121;
+
+}.bt{
+
+	
+margin-left:100px;
+	margin-bottom:0px;
+	background:rgb(137, 207, 240); 
+	width: 220px;  
+    height: 40px;  
+  
+     outline: none;
+    border-radius: 8px;  
+    color: rgba(255, 255, 255,0.8);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 48px;
+}
+.waviy {
+  position: center;
+ 
+  font-size: 48px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  
+  display: inline-block;
+ color:rgba(255, 255, 255,1);	 
+ 
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
