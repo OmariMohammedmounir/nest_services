@@ -74,4 +74,4 @@ Follow these steps to set up the platform locally or deploy it to a cloud enviro
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/nest-services.git
+   https://github.com/OmariMohammedmounir/nest_services.git
