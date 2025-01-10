@@ -1,48 +1,77 @@
-# Nest Services
-Nest Services is a multicloud platform designed to connect users with SaaS (Software as a Service) offerings while enabling suppliers to upload and manage information about the services they provide. The platform is built using Java EE and Spring Boot, allowing for robust and scalable service delivery.
+# Nest Services 🌐
 
-The project utilizes RESTful APIs that accept and return JSON data, facilitating seamless communication between suppliers and users. The platform can be hosted on multiple cloud providers, ensuring high availability, performance, and reliability.
+Nest Services is a multicloud platform designed to bridge the gap between users and SaaS (Software as a Service) offerings. It empowers suppliers to upload and manage information about their services, enabling seamless interaction and delivery. Built with **Java EE** and **Spring Boot**, the platform ensures robust, scalable, and efficient service delivery.
 
-Features
-Multi-cloud deployment: The platform supports deployment across different cloud environments to ensure redundancy and better performance.
-SaaS services for users: Users can access various SaaS offerings provided by suppliers through the platform.
+---
 
-Supplier APIs: Suppliers can submit service information using standardized JSON payloads, which are integrated into the platform via RESTful APIs.
+## Features ✨
 
-User dashboard: Provides users with an easy-to-use interface to browse available services and interact with SaaS offerings.
+- **Multi-cloud Deployment**: Supports deployment across different cloud environments (AWS, Azure, Google Cloud) to ensure redundancy, high performance, and reliability.
+- **SaaS Services for Users**: Users can explore and interact with various SaaS offerings provided by suppliers.
+- **Supplier APIs**: Suppliers can submit, update, and manage service information via standardized JSON payloads through RESTful APIs.
+- **User Dashboard**: A user-friendly interface to browse available services and interact with SaaS offerings.
+- **Service Management**: Suppliers can easily update, add, or remove services via API endpoints.
 
-Service Management: Allows suppliers to update, add, or remove services through API endpoints.
+---
 
-Tech Stack
+## Services Provided 🛠️
 
-Backend Framework: Spring Boot (Java EE)
+The Nest Services platform provides several core services to users. These services are deployed in the cloud and cater to various use cases. Here's a breakdown of the main services:
 
-Frontend: React.js (or specify another framework if used)
+1. **Data Storage Service (Service1)**:  
+   - **Purpose**: This service enables users and suppliers to store data securely in the cloud. It allows seamless file uploads, retrieval, and management of documents, images, and other data types. The service ensures data redundancy and high availability across different cloud platforms.
+   
 
-API Format: JSON
+2. **PDF Converter Service(Service2)**:  
+   
+     
 
-Database: MySQL / PostgreSQL (or specify used database)
-Cloud Platforms: AWS, Azure, Google Cloud, or any specific clouds being used
-Authentication: OAuth2 / JWT (for secure login and access control)
+3. **Document Converter Service (Service3)**:  
 
-System Architecture
-The system is designed with a microservices architecture, each service running independently and communicating via RESTful APIs. This allows for easier scaling and maintenance, as well as seamless integration between users and suppliers.
 
-Components:
-User Module: Handles user registration, authentication, and access to SaaS services.
 
-Supplier Module: Allows suppliers to register their services, update service details, and manage them via APIs.
+---
 
-Service API: Exposes endpoints for service interaction, such as service discovery, service registration, and service removal.
+## Tech Stack 🛠️
 
-Cloud Integration: Ensures services are deployable and accessible on multiple cloud platforms for high availability.
+- **Backend Framework**: Spring Boot (Java EE)
+- **API Format**: RESTful APIs with JSON
+- **Database**: MySQL / PostgreSQL 
+- **Cloud Platforms**: AWS, Azure, Google Cloud
+- **Authentication**: OAuth2 / JWT (for secure login and access control)
 
-Getting Started
+---
 
-To get the platform up and running locally or in your cloud environment, follow the instructions below.
+## System Architecture 🏗️
 
-Pre-requisites
-JDK 8 or higher
-Maven (for managing dependencies and building the project)
-MySQL or PostgreSQL (depending on your chosen database)
-Cloud account (for deploying to AWS, Google Cloud, or Azure)
+Nest Services is designed with a **microservices architecture**, allowing each service to run independently and communicate via RESTful APIs. This ensures scalability, easier maintenance, and seamless integration between users and suppliers.
+
+### Components:
+
+1. **User Module**:  
+   - Handles user registration, authentication, and access to SaaS services.
+2. **Supplier Module**:  
+   - Enables suppliers to register, manage, and update their services via APIs.
+3. **Service API**:  
+   - Exposes endpoints for service interaction, including service discovery, registration, and removal.
+4. **Cloud Integration**:  
+   - Ensures services are deployable and accessible on multiple cloud platforms for high availability.
+
+---
+
+## Getting Started 🚀
+
+Follow these steps to set up the platform locally or deploy it to a cloud environment.
+
+### Prerequisites:
+
+- **JDK 8 or higher**: For Java application development.
+- **Maven**: To manage dependencies and build the project.
+- **Database**: MySQL or PostgreSQL (choose based on your configuration).
+- **Cloud Account**: For deploying to AWS, Google Cloud, or Azure.
+
+### Installation:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/nest-services.git
